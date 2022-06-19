@@ -1,0 +1,28 @@
+.fadein {
+    animation: 10s;
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ORdb {
+    color: #000137;
+}
+
+.ORlb {
+    color: #253DA1;
+}
+
+.bglightblue {
+    background-color: rgba(37, 61, 161, 0.3);
+    border-color: rgba(37, 61, 161, 0.3);
+}
+
+/* dark = #000137
+    light = 253DA1 */
